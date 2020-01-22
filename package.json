@@ -1,0 +1,17 @@
+{
+  "name": "luan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-ass": "^1.0.4",
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node-sass sass/main.scss css/luan.css -w",
+    "sasstocss": "node-sass sass/main.scss css/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

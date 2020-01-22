@@ -1,0 +1,14 @@
+/* ................animations of Header........................... */
+.heading-primary--main{
+    animation: moveInLeft 1s ease-out .75s;
+    animation-fill-mode: backwards;
+}
+
+.heading-primary--sub{
+    animation: moveInRight 1s ease-out .75s;
+    animation-fill-mode: backwards;
+}
+.btn-animated{
+    animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
+}
